@@ -316,6 +316,504 @@
   </section>
 
 
+<section class="section">
+  <div class="container">
+    <h3 class="title is-3 has-text-centered">Visual Quality Comparison</h3>
+    <p class="has-text-centered mb-5">Comparison of generation results across different methods</p>
+
+    <div class="image-gallery">
+      <!-- Sample 1 -->
+      <div class="comparison-group mb-6">
+        <div class="columns is-centered is-variable is-5">
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/contrast_image/Original/image_1.jpg" alt="Flux1.dev Sample 1">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">HiDream-Full</p>
+                <p class="subtitle is-6">1.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/contrast_image/Taylor/img_1.jpg" alt="Taylor Sample 1">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+                <p class="subtitle is-6">1.9$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/contrast_image/Scalingcache_2.1/img_1.jpg" alt="ScalingCache Sample 1">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">ScalingCache($S_f=14$)</p>
+                <p class="subtitle is-6">2.1$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/contrast_image/Scalingcache_3.0/img_1.jpg" alt="ScalingCache Sample 2">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">ScalingCache($S_f=10$)</p>
+                <p class="subtitle is-6">3.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-2 mb-4">
+          <p class="is-italic has-text-grey">Click image to view details</p>
+        </div>
+      </div>
+
+      <!-- Sample 2 -->
+      <div class="comparison-group mb-6">
+        <div class="columns is-centered is-variable is-5">
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/Original/Original_2.jpg" alt="HiDream-Full Sample 2">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">HiDream-Full</p>
+                <p class="subtitle is-6">1.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TeaCache/Teacache_2.png" alt="TeaCache Sample 2">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TeaCache($l_1=1$)</p>
+                <p class="subtitle is-6">3.8$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_2.jpg" alt="TaylorSeer Sample 2">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
+                <p class="subtitle is-6">4.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-2 mb-4">
+          <p class="is-italic has-text-grey">Click image to view details</p>
+        </div>
+      </div>
+
+      <!-- Sample 3 -->
+      <div class="comparison-group mb-6">
+        <div class="columns is-centered is-variable is-5">
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/Original/Original_3.jpg" alt="HiDream-Full Sample 3">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">HiDream-Full</p>
+                <p class="subtitle is-6">1.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TeaCache/Teacache_3.png" alt="TeaCache Sample 3">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TeaCache($l_1=1$)</p>
+                <p class="subtitle is-6">3.8$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_3.jpg" alt="TaylorSeer Sample 3">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
+                <p class="subtitle is-6">4.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-2 mb-4">
+          <p class="is-italic has-text-grey">Click image to view details</p>
+        </div>
+      </div>
+
+      <!-- Sample 4 -->
+      <div class="comparison-group">
+        <div class="columns is-centered is-variable is-5">
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/Original/Original_4.jpg" alt="HiDream-Full Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">HiDream-Full</p>
+                <p class="subtitle is-6">1.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TeaCache/Teacache_4.png" alt="TeaCache Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TeaCache($l_1=1$)</p>
+                <p class="subtitle is-6">3.8$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_4.jpg" alt="TaylorSeer Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
+                <p class="subtitle is-6">4.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-2 mb-4">
+          <p class="is-italic has-text-grey">Click image to view details</p>
+        </div>
+      </div>
+
+
+
+      <!-- Sample 6 -->
+      <div class="comparison-group">
+        <div class="columns is-centered is-variable is-5">
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/Original/Original_6.jpg" alt="HiDream-Full Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">HiDream-Full</p>
+                <p class="subtitle is-6">1.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TeaCache/Teacache_6.png" alt="TeaCache Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TeaCache($l_1=1$)</p>
+                <p class="subtitle is-6">3.8$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_6.jpg" alt="TaylorSeer Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
+                <p class="subtitle is-6">4.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-2 mb-4">
+          <p class="is-italic has-text-grey">Click image to view details</p>
+        </div>
+      </div>
+
+
+      <!-- Sample 8 -->
+      <div class="comparison-group">
+        <div class="columns is-centered is-variable is-5">
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/Original/Original_8.jpg" alt="HiDream-Full Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">HiDream-Full</p>
+                <p class="subtitle is-6">1.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TeaCache/Teacache_8.png" alt="TeaCache Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TeaCache($l_1=1$)</p>
+                <p class="subtitle is-6">3.8$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5">
+            <div class="card has-background-success-light">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_8.jpg" alt="TaylorSeer Sample 4">
+                </figure>
+              </div>
+              <div class="card-content has-text-centered">
+                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
+                <p class="subtitle is-6">4.0$\times$ speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="has-text-centered mt-2 mb-4">
+          <p class="is-italic has-text-grey">Click image to view details</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 全屏查看模态框 -->
+    <div class="modal" id="imageModal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="image">
+          <img id="modalImage" src="">
+        </p>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* 照片墙样式优化 */
+.image-gallery .image {
+  overflow: hidden;
+  cursor: pointer;
+  /* 进一步增大图片高度 */
+  height: 450px;  /* 从 380px 增加到 450px */
+}
+
+.image-gallery .card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border-radius: 10px;
+  /* 相应增加卡片最小高度 */
+  min-height: 530px;  /* 从 460px 增加到 530px */
+}
+
+  .image-gallery .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+
+  .image-gallery img {
+    transition: transform 0.5s ease;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-gallery .card:hover img {
+    transform: scale(1.05);
+  }
+
+  .image-gallery .has-background-success-light {
+    box-shadow: 0 0 0 2px #48c774;
+  }
+
+  .comparison-group {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+  }
+
+  .comparison-group h4 {
+    position: relative;
+    font-weight: 600;
+  }
+
+  .comparison-group h4:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #48c774, transparent);
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+
+  /* 列间距样式 */
+  .columns.is-variable.is-5 {
+    --columnGap: 2rem;
+  }
+
+  /* 模态框样式 */
+  .modal-content {
+    width: auto;
+    max-width: 95%;
+  }
+
+  .modal-content .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .image-gallery .card-content {
+    padding: 1.5rem;
+  }
+
+  .modal-content img {
+    max-height: 90vh;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  /* 响应式布局优化 */
+  @media screen and (max-width: 1023px) {
+    .comparison-group {
+      padding: 1.5rem;
+    }
+
+    .column.is-5 {
+      width: 50% !important;
+    }
+
+    .image-gallery .image {
+      height: 380px;  /* 中等屏幕尺寸 */
+    }
+
+    .image-gallery .card {
+      min-height: 460px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .comparison-group {
+      padding: 1rem;
+      margin-bottom: 1.5rem !important;
+    }
+
+    .column.is-5 {
+      width: 100% !important;
+    }
+
+    .columns.is-variable.is-5 {
+      --columnGap: 0.5rem;
+    }
+
+    .image-gallery .image {
+      height: 320px;  /* 小屏幕尺寸 */
+    }
+
+    .image-gallery .card {
+      min-height: 400px;
+    }
+  }
+</style>
+
+<script>
+  // 图片点击放大查看功能
+  document.addEventListener('DOMContentLoaded', function() {
+    // 获取所有图片和模态框元素
+    const galleryImages = document.querySelectorAll('.image-gallery .card-image img');
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const modalClose = document.querySelector('.modal-close');
+    const modalBg = document.querySelector('.modal-background');
+
+    // 为每张图片添加点击事件
+    galleryImages.forEach(img => {
+      img.addEventListener('click', function() {
+        modalImg.src = this.src;
+        modal.classList.add('is-active');
+      });
+    });
+
+    // 关闭模态框
+    function closeModal() {
+      modal.classList.remove('is-active');
+    }
+
+    // 添加关闭事件
+    modalClose.addEventListener('click', closeModal);
+    modalBg.addEventListener('click', closeModal);
+
+    // ESC键关闭
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && modal.classList.contains('is-active')) {
+        closeModal();
+      }
+    });
+  });
+</script>
+
+
+
+
 <section class="hero is-small">
 <div class="hero-body">
 <div class="container is-max-desktop">
@@ -324,6 +822,8 @@
 
 <div class="columns is-centered has-text-centered">
 <div class="column custom-width">
+
+<div class="content has-text-justified" style="margin-top: -10px;">
 
 <br><a rel="license"href="https://taylorseer.github.io/TaylorSeer/" target="_blank" color="blue">TaylorSeer</a>: From Reusing to Forecasting Accelerating Diffusion Models with TaylorSeers.
 <br><a rel="license" href="https://h-embodvis.github.io/EasyCache/" target="_blank" color="blue">EasyCache</a>: Training-Free Video Diffusion Acceleration via Runtime-Adaptive Caching.
