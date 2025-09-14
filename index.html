@@ -41,6 +41,18 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <!-- 引入 MathJax 来渲染 LaTeX 公式 -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
 </head>
 <body>
   <section class="hero">
@@ -318,7 +330,7 @@
 
 <section class="section">
   <div class="container">
-    <h3 class="title is-3 has-text-centered">Visual Quality Comparison</h3>
+    <h3 class="title is-3 has-text-centered">Text-to-Image Visual Quality Comparison</h3>
     <p class="has-text-centered mb-5">Comparison of generation results across different methods</p>
 
     <div class="image-gallery">
@@ -329,11 +341,11 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-square">
-                  <img src="static/images/contrast_image/Original/image_1.jpg" alt="Flux1.dev Sample 1">
+                  <img src="static/images/contrast_image/Original/img_1.jpg" alt="Flux1.dev Sample 1">
                 </figure>
               </div>
               <div class="card-content has-text-centered">
-                <p class="title is-5">HiDream-Full</p>
+                <p class="title is-5">Flux1.dev-Original</p>
                 <p class="subtitle is-6">1.0$\times$ speed</p>
               </div>
             </div>
@@ -646,8 +658,8 @@
 .image-gallery .image {
   overflow: hidden;
   cursor: pointer;
-  /* 进一步增大图片高度 */
-  height: 450px;  /* 从 380px 增加到 450px */
+  height: 300px;
+  width: auto;
 }
 
 .image-gallery .card {
@@ -655,8 +667,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
   border-radius: 10px;
-  /* 相应增加卡片最小高度 */
-  min-height: 530px;  /* 从 460px 增加到 530px */
+  min-height: 350px;  /* 从 460px 增加到 530px */
 }
 
   .image-gallery .card:hover {
