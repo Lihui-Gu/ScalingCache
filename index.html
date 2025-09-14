@@ -334,310 +334,687 @@
     <p class="has-text-centered mb-5">Comparison of generation results across different methods</p>
 
     <div class="image-gallery">
-      <!-- Sample 1 -->
-      <div class="comparison-group mb-6">
-        <div class="columns is-centered is-variable is-5">
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/contrast_image/Original/img_1.jpg" alt="Flux1.dev Sample 1">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">Flux1.dev-Original</p>
-                <p class="subtitle is-6">1.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/contrast_image/Taylor/img_1.jpg" alt="Taylor Sample 1">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
-                <p class="subtitle is-6">1.9$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/contrast_image/Scalingcache_2.1/img_1.jpg" alt="ScalingCache Sample 1">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">ScalingCache($S_f=14$)</p>
-                <p class="subtitle is-6">2.1$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/contrast_image/Scalingcache_3.0/img_1.jpg" alt="ScalingCache Sample 2">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">ScalingCache($S_f=10$)</p>
-                <p class="subtitle is-6">3.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
+      
+<!-- Sample 1 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_1.jpg" alt="Flux1.dev Sample 1">
+          </figure>
         </div>
-        <div class="has-text-centered mt-2 mb-4">
-          <p class="is-italic has-text-grey">Click image to view details</p>
-        </div>
-      </div>
-
-      <!-- Sample 2 -->
-      <div class="comparison-group mb-6">
-        <div class="columns is-centered is-variable is-5">
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/Original/Original_2.jpg" alt="HiDream-Full Sample 2">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">HiDream-Full</p>
-                <p class="subtitle is-6">1.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TeaCache/Teacache_2.png" alt="TeaCache Sample 2">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TeaCache($l_1=1$)</p>
-                <p class="subtitle is-6">3.8$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_2.jpg" alt="TaylorSeer Sample 2">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
-                <p class="subtitle is-6">4.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="has-text-centered mt-2 mb-4">
-          <p class="is-italic has-text-grey">Click image to view details</p>
-        </div>
-      </div>
-
-      <!-- Sample 3 -->
-      <div class="comparison-group mb-6">
-        <div class="columns is-centered is-variable is-5">
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/Original/Original_3.jpg" alt="HiDream-Full Sample 3">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">HiDream-Full</p>
-                <p class="subtitle is-6">1.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TeaCache/Teacache_3.png" alt="TeaCache Sample 3">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TeaCache($l_1=1$)</p>
-                <p class="subtitle is-6">3.8$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_3.jpg" alt="TaylorSeer Sample 3">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
-                <p class="subtitle is-6">4.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="has-text-centered mt-2 mb-4">
-          <p class="is-italic has-text-grey">Click image to view details</p>
-        </div>
-      </div>
-
-      <!-- Sample 4 -->
-      <div class="comparison-group">
-        <div class="columns is-centered is-variable is-5">
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/Original/Original_4.jpg" alt="HiDream-Full Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">HiDream-Full</p>
-                <p class="subtitle is-6">1.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TeaCache/Teacache_4.png" alt="TeaCache Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TeaCache($l_1=1$)</p>
-                <p class="subtitle is-6">3.8$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_4.jpg" alt="TaylorSeer Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
-                <p class="subtitle is-6">4.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="has-text-centered mt-2 mb-4">
-          <p class="is-italic has-text-grey">Click image to view details</p>
-        </div>
-      </div>
-
-
-
-      <!-- Sample 6 -->
-      <div class="comparison-group">
-        <div class="columns is-centered is-variable is-5">
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/Original/Original_6.jpg" alt="HiDream-Full Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">HiDream-Full</p>
-                <p class="subtitle is-6">1.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TeaCache/Teacache_6.png" alt="TeaCache Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TeaCache($l_1=1$)</p>
-                <p class="subtitle is-6">3.8$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_6.jpg" alt="TaylorSeer Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
-                <p class="subtitle is-6">4.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="has-text-centered mt-2 mb-4">
-          <p class="is-italic has-text-grey">Click image to view details</p>
-        </div>
-      </div>
-
-
-      <!-- Sample 8 -->
-      <div class="comparison-group">
-        <div class="columns is-centered is-variable is-5">
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/Original/Original_8.jpg" alt="HiDream-Full Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">HiDream-Full</p>
-                <p class="subtitle is-6">1.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TeaCache/Teacache_8.png" alt="TeaCache Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TeaCache($l_1=1$)</p>
-                <p class="subtitle is-6">3.8$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-5">
-            <div class="card has-background-success-light">
-              <div class="card-image">
-                <figure class="image is-square">
-                  <img src="static/images/HiDream/TaylorSeer/TaylorSeer_8.jpg" alt="TaylorSeer Sample 4">
-                </figure>
-              </div>
-              <div class="card-content has-text-centered">
-                <p class="title is-5">TaylorSeer($N=4,O=2$)</p>
-                <p class="subtitle is-6">4.0$\times$ speed</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="has-text-centered mt-2 mb-4">
-          <p class="is-italic has-text-grey">Click image to view details</p>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
         </div>
       </div>
     </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_1.jpg" alt="Taylor Sample 1">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_1.jpg" alt="ScalingCache Sample 1">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_1.jpg" alt="ScalingCache Sample 1">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 2 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_100.jpg" alt="Flux1.dev Sample 2">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_100.jpg" alt="Taylor Sample 2">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_100.jpg" alt="ScalingCache Sample 2">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_100.jpg" alt="ScalingCache Sample 2">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 3 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_517.jpg" alt="Flux1.dev Sample 3">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_517.jpg" alt="Taylor Sample 3">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_517.jpg" alt="ScalingCache Sample 3">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_517.jpg" alt="ScalingCache Sample 3">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 4 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_535.jpg" alt="Flux1.dev Sample 4">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_535.jpg" alt="Taylor Sample 4">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_535.jpg" alt="ScalingCache Sample 4">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_535.jpg" alt="ScalingCache Sample 4">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 5 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_672.jpg" alt="Flux1.dev Sample 5">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_672.jpg" alt="Taylor Sample 5">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_672.jpg" alt="ScalingCache Sample 5">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_672.jpg" alt="ScalingCache Sample 5">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 6 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_766.jpg" alt="Flux1.dev Sample 6">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_766.jpg" alt="Taylor Sample 6">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_766.jpg" alt="ScalingCache Sample 6">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_766.jpg" alt="ScalingCache Sample 6">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 7 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_804.jpg" alt="Flux1.dev Sample 7">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_804.jpg" alt="Taylor Sample 7">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_804.jpg" alt="ScalingCache Sample 7">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_804.jpg" alt="ScalingCache Sample 7">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 8 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_866.jpg" alt="Flux1.dev Sample 8">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_866.jpg" alt="Taylor Sample 8">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_866.jpg" alt="ScalingCache Sample 8">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_866.jpg" alt="ScalingCache Sample 8">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 9 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_918.jpg" alt="Flux1.dev Sample 9">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_918.jpg" alt="Taylor Sample 9">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_918.jpg" alt="ScalingCache Sample 9">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_918.jpg" alt="ScalingCache Sample 9">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 10 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_942.jpg" alt="Flux1.dev Sample 10">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_942.jpg" alt="Taylor Sample 10">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_942.jpg" alt="ScalingCache Sample 10">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_942.jpg" alt="ScalingCache Sample 10">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
+
+
+<!-- Sample 11 -->
+<div class="comparison-group mb-6">
+  <div class="columns is-centered is-variable is-5">
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Original/img_973.jpg" alt="Flux1.dev Sample 11">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">Flux1.dev-Original</p>
+          <p class="subtitle is-6">1.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Taylor/img_973.jpg" alt="Taylor Sample 11">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">TaylorSeer($N=2,O=1$)</p>
+          <p class="subtitle is-6">1.9$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_2.1/img_973.jpg" alt="ScalingCache Sample 11">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=14$)</p>
+          <p class="subtitle is-6">2.1$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-5">
+      <div class="card has-background-success-light">
+        <div class="card-image">
+          <figure class="image is-square">
+            <img src="static/images/contrast_image/Scalingcache_3.0/img_973.jpg" alt="ScalingCache Sample 11">
+          </figure>
+        </div>
+        <div class="card-content has-text-centered">
+          <p class="title is-5">ScalingCache($S_f=10$)</p>
+          <p class="subtitle is-6">3.0$\times$ speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered mt-2 mb-4">
+    <p class="is-italic has-text-grey">Click image to view details</p>
+  </div>
+</div>
 
 
     <!-- 全屏查看模态框 -->
@@ -658,7 +1035,7 @@
 .image-gallery .image {
   overflow: hidden;
   cursor: pointer;
-  height: 300px;
+  height: 180px;
   width: auto;
 }
 
@@ -667,7 +1044,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
   border-radius: 10px;
-  min-height: 350px;  /* 从 460px 增加到 530px */
+  min-height: 220px;
 }
 
   .image-gallery .card:hover {
